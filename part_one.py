@@ -125,3 +125,52 @@ print(sorted(places))
 print(sorted(places, reverse=True))
 '''
 
+# ch4: Working with Lists
+for value in range(1, 5):
+    print(value)
+
+numbers = list(range(1, 6))
+num_generater = range(1, 6)
+print(f'numbers:{numbers}')
+print(f'num_generater:{num_generater}')
+for value in num_generater:
+    print(value)
+
+even_numbers = list(range(2, 11, 2))
+odd_numbers = list(range(1, 10, 2))
+print(f'even_numbers:{even_numbers}')
+print(f'odd_numbers:{odd_numbers}')
+print('squares v1:')
+print([value*value for value in range(1, 11)])
+print('squares v2:')
+print([value**2 for value in range(1, 11)])
+print('squares v3:')
+print(value**2 for value in range(1, 11))
+
+# excercise 4-3
+exc_numbers = list(range(1, 21))
+for number in exc_numbers:
+    print(number)
+# excercise 4-4
+large_numbers = list(range(1, 1000001))
+for number in large_numbers:
+    print(number)
+# excercise 4-5
+print(f'min:{min(large_numbers)}')
+print(f'max:{max(large_numbers)}')
+print(f'sum:{sum(large_numbers)}')
+# excercise 4-6
+odd_numbers = list(range(1, 21, 2))
+for number in odd_numbers:
+    print(number)
+# excercise 4-7
+multiples_of_three = list(range(3, 31, 3))
+for number in multiples_of_three:
+    print(number)
+# excercise 4-8
+cubes = [value**3 for value in range(1, 11)]
+print(f'The first three items in the list are:{cubes[:-1]}')
+# excercise 4-9
+first_ten_cubes = [value**3 for value in range(1, 11)]
+for cube in first_ten_cubes:
+    print(cube)
