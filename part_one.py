@@ -44,6 +44,7 @@ import this
 # Namespaces are one honking great idea -- let's do more of those!
 
 # ch03: Introducing Lists
+'''
 names = ['Michael', 'Bob', 'Tracy']
 # excercise 3-1
 print(names)
@@ -122,3 +123,5 @@ print(places.reverse())
 print(places.reverse())
 print(sorted(places))
 print(sorted(places, reverse=True))
+'''
+
